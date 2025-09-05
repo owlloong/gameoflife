@@ -1,0 +1,5 @@
+ai:
+  deepseek:
+    api:
+      url: https://api.deepseek.com/chat/completions
+      key: sk-20fce45ca4894484b057def8c0f69863

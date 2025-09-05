@@ -6,16 +6,25 @@
     <parent>
         <groupId>com.advitime.territory</groupId>
         <artifactId>gameoflife</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>${revision}</version>
     </parent>
 
-    <groupId>com.advitime.territory.gameoflife.report</groupId>
     <artifactId>gameoflife-report</artifactId>
 
-    <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.advitime.dao</groupId>
+            <artifactId>natuway-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.advitime.dao</groupId>
+            <artifactId>natuway-ai</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
 
 </project>

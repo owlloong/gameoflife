@@ -6,5 +6,6 @@ package com.advitime.territory.gameoflife.app.classloader;
 * @Date 2025/9/2 14:33
 * @Version 0.1
 */
-public class FindClassLoader {
+public class FindClassLoader extends ClassLoader {
+
 }

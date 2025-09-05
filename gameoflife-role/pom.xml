@@ -6,10 +6,9 @@
     <parent>
         <groupId>com.advitime.territory</groupId>
         <artifactId>gameoflife</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>${revision}</version>
     </parent>
 
-    <groupId>com.advitime.territory.gameoflife.role</groupId>
     <artifactId>gameoflife-role</artifactId>
 
     <properties>
